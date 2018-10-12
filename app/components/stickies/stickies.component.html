@@ -1,6 +1,6 @@
 <aside>
         
-        <div class="child" *ngFor=" let stickyVal of stickies" [ngStyle]="{'background-color':'#stickyVal.color' }" >
+        <div class="child" *ngFor=" let stickyVal of stickies" [ngStyle]="{'background-color':stickyVal.color }" >
         <app-stickes-details [sticker] =stickyVal></app-stickes-details>
         </div>
        
